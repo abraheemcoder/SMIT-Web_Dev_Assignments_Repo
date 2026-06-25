@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter_02 (Variables For Strings)</title>
+</head>
+<body>
+    <!-- Quetion_08
+    Write a script to display this message in browser through JS.
+    Message: Yah! I can write HTML content through JavaScript. -->
+    <!-- 2 Method: • Using document.write() 
+                   • Using innerHTML (Recommended Method) -->
+    <!-- Answer: -->
+    <!-- Using document.write()  // Never Use This -->
+    <script>
+        let msg = "Yah! I can write HTML content through JavaScript.";
+        document.write(msg);
+    </script>
+    
+    <!-- Using innerHTML (Recommended Method) -->
+    <p id="msg"></p>
+    <script>
+        // Display on browser
+        let mesage = "Yah! I can write HTML content through JavaScript.";
+        document.getElementById("msg").innerHTML = mesage;
+
+        // Alert
+        alert(mesage);
+    </script>
+
+
+    <!-- Question_09
+    Store the following string in a variable and show in alert and browser through JS.
+    String: "▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬" -->
+    <!-- Answer: -->
+    <p id="design"></p>
+    <script>
+        // Display on browser
+        let design = "▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬";;
+        document.getElementById("design").innerHTML = design; 
+
+        // Alert
+        alert(design);
+    </script>
+
+    <script src="app.js"></script>
+</body>
+</html>
