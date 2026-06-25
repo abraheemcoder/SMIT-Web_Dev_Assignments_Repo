@@ -19,7 +19,7 @@ alert("Error! Please enter a valid password.");
 alert("Welcome to JS Land...\nHappy Coding!");
 
 
-// Question_04
+// Question_04 
 // Write a script to display following messages in sequence:
 // Alert_01: Welcome to JS Land...
 // Alert_02: Happy Coding!
@@ -31,7 +31,7 @@ alert("Happy Coding!");
 // Question_05
 // Generate the following message through browser’s developer console:
 // Answer:
-// Type in Console Tab on Brower: alert ("Hello... I can run JS through my web browser's console.");
+// Type in Console Tab on Brower: alert("Hello... I can run JS through my web browser's console.");
 
 
 // Question_06
