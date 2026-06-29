@@ -1,5 +1,3 @@
-// 30 practice questions
-
 // Level 1 – Basic Alerts ⭐
 
 // ===================================
